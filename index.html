@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+
+            .myDiv {
+                border: 5px outset red;
+                background-color: lightblue;    
+                text-align: center;
+                }
+
+            kbd {
+                border-radius: 2px;
+                padding: 2px;
+                border: 1px solid black;
+                }
+        </style>
+    </head>
 <body>
     <!--This is comment-->
     <h1>Home Page</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore ratione necessitatibus cumque ducimus dolorem eius corrupti laboriosam id vitae omnis dicta inventore error dolore animi, nihil repudiandae qui sunt corporis dolorum nam quae blanditiis dolores tenetur. Tenetur vitae deserunt ex sunt maiores quibusdam asperiores quasi reprehenderit animi? Numquam, alias dolor maxime quasi voluptate aspernatur itaque dolore, aperiam nam facere beatae, nesciunt blanditiis. Necessitatibus temporibus voluptatem quia officiis ea rerum? Reprehenderit impedit dignissimos laboriosam excepturi voluptatibus sint molestias veniam, accusamus dolorem ut nulla facilis doloribus ipsam magni tempora quos hic ullam aspernatur iusto architecto beatae odit commodi delectus mollitia. Magnam!</p>
 
+    <h1>a element</h1>
     <a href="/pages/about/about.html">Go to about page</a> <br><br>
 
     <a href="https://web.facebook.com/mithunmodakdu" target="_blank">Facebook</a> <br><br>
@@ -22,12 +41,18 @@
 
     <br><br>
 
+
+    <h1>abbr element</h1>
     <abbr title="World Trade Organization">WTO</abbr>
+
     <br><br>
+
+    <h1>Use of title attribute in image</h1>
     <img src="/images/sea.jpg" width="50px" height="50px" title="Image of sea" alt="">
 
     <br><br>
 
+    <h1>address element</h1>
     <address>
     Moilakanda, Shamgonj-2411, <br>
     Gouripur, Mymensingh <br>
@@ -37,20 +62,26 @@
 
     <br><br>
 
+    <h1>article element</h1>
     <article>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempore.</h3>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempore.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque nam illo harum, distinctio magni repudiandae quo earum vero amet tempora voluptates incidunt laborum, quod inventore. Doloremque quos, qui asperiores minima voluptatibus vero non rerum cumque, illo ea optio, voluptas cupiditate nostrum minus. Ex, eveniet veniam veritatis accusantium beatae necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit in voluptatibus vitae rem optio odio? Numquam eveniet quo illum impedit vitae dolor fugiat animi dignissimos, blanditiis obcaecati minus repudiandae eaque tempora placeat quisquam fuga omnis voluptate pariatur repellat esse unde. Iure ullam tenetur exercitationem deserunt ut nemo aut necessitatibus laudantium.</p>
     </article>
 
     <br><br>
 
+    <h1>p and aside element</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugiat quidem a, error autem doloremque eveniet veniam molestiae commodi saepe dicta corporis veritatis iusto delectus id illum maiores dolorem, eius culpa odit ratione vitae assumenda. Ipsam facilis deleniti aspernatur natus ipsa, ad repellendus qui quae eligendi aliquid reprehenderit laborum id.</p>
-
+    
     <aside>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis soluta sint eaque obcaecati aperiam dolorem quam odio deleniti voluptas, recusandae consectetur unde culpa ratione accusamus dolorum, exercitationem repellendus! Odio dolores eveniet reprehenderit facilis libero laudantium perspiciatis tenetur magni pariatur sed, nulla eos iusto quod harum a iure rem quibusdam?</p>
     </aside>
+    
+    
+    <br><br>
 
+    <h1>audio element</h1>
     <audio src="/audio/audio.mp3" controls></audio> 
     <br>
     <audio controls >
@@ -65,6 +96,10 @@
         <source src="/audio/audio.mp3" type="">
     </audio> -->
 
+    <br><br>
+
+    <h1>area and map element</h1>
+    <p>click on the laptop of the image</p>
     <img src="images/gazzets.jpg"  usemap="#laptop" width="640px" height="960px" alt="">
     <map name="laptop" >
         <area  coords="185,603,339,849,333,857,141,957,83,959,1,751,1,669" shape="poly" href="images/laptop.jpg" alt="">
@@ -72,10 +107,12 @@
 
     <br><br>
 
+    <h1>b element</h1>
     <p>Lorem ipsum dolor sit  <b>Lorem ipsum dolor sit amet.</b> </p>
 
     <br><br>
 
+    <h1>bdi and list element</h1>
     <ul>
         <li>User <bdi>hrefs</bdi>: 60 points</li>
         <li>User <bdi>jdoe</bdi>: 80 points</li>
@@ -84,20 +121,347 @@
 
     <br><br>
 
+    <h1>bdo element</h1>
     <bdo dir="rtl">Mithun Kumer Modak</bdo> <br>
     <bdo dir="ltr">Mithun Kumer Modak</bdo>
 
     <br><br>
     
+    <h1>Blockquote element</h1>
     <p>According to Henri Fayol</p>
     <blockquote>Management is to plan and forcast, to organize, to lead and to control.</blockquote>
 
     <br><br>
 
+    <h1>Button element</h1>
+    <button type="button">Click Me!</button>
     <button type="button" autofocus>Click Me!</button>
     <button type="button" disabled>Click Me!</button>
 
+    <br><br>
 
+    <h1 popover id="myheader">Hello</h1>
+    <button popovertarget="myheader">Click for popover</button>
+
+    <br><br>
+
+    <h1 popover id="myheader">Hello</h1>
+    <button popovertarget="myheader" popovertargetaction="show">Show popover</button>
+    <button popovertarget="myheader" popovertargetaction="hide">Hide popover</button>
+    <button popovertarget="myheader" popovertargetaction="toggle">Toggle popover</button>
+
+    <br><br><br>
+
+    <form >
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="button" value="Submit">Button Type</button>
+        <button type="submit" value="Submit">Submit Type</button>
+        <button type="reset" value="Reset">Reset Type</button>
+    </form>
+
+    <br><br>
+
+    <h1>The canvas element</h1>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <br><br>
+    
+    <h1>The table & caption element</h1>
+    <table>
+        <caption style="text-align:center">My savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+      </table>
+
+      <br><br>
+      
+      
+      <table>
+        <caption style="caption-side:bottom">My savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+      </table>
+
+      <br><br>
+
+      <h1>The cite element</h1>
+      <img src="/images/scream.jpg" width="200" height="250" alt="The Scream">
+      <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+      <br><br>
+
+      <h1>The code element</h1>
+      <p>The HTML <code>button</code> tag defines a clickable button.</p>
+      <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+      <br><br>
+
+      <h1>col and colgroup element</h1>
+      <table>
+       
+        <colgroup>
+            <col span="2" style="background-color: red;">
+            <col style="background-color: yellow;">
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+        <tr>
+          <td>5869207</td>
+          <td>My first CSS</td>
+          <td>$49</td>
+        </tr>
+      </table>
+
+      <br><br>
+
+      <h1>The data element</h1>
+
+        <ul>
+            <li><data value="21053">Cherry Tomato</data></li>
+            <li><data value="21054">Beef Tomato</data></li>
+            <li><data value="21055">Snack Tomato</data></li>
+        </ul>
+
+        <br><br>
+
+
+        <h1>datalist element</h1>
+
+        <form>
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </form>
+
+        <br><br>
+
+        <h1>dl, dd, and dt elements</h1>
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+        </dl>
+
+        <br><br>
+
+        <h1>del, ins element</h1>
+
+        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+
+        <br><br>
+
+        <h1>details, summary element</h1>
+
+        <details>
+            <summary>Epcot Center</summary>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+        
+        <br>
+        <details open>
+            <summary>Epcot Center</summary>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+
+
+        <br><br>
+
+        <h1>The dfn element</h1>
+
+        <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+       
+        <p><dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages.</p>
+
+
+        <br><br>
+
+
+        <h1>dialog element</h1>
+        <dialog open>This is an open dialog window</dialog>
+
+        <p>This is some text.</p>
+
+        <p>This is some text.</p>
+
+        <dialog open>This is an open dialog window</dialog>
+
+        <p>This is some text.</p>
+
+        <p>This is some text.</p>
+
+
+        <br><br>
+        <h1>div element</h1>
+
+        <div class="myDiv">
+            <h2>This is a heading in a div element</h2>
+            <p>This is some text in a div element.</p>
+        </div>
+
+
+        <br><br>
+
+        <h1> em element</h1>
+
+        <p>You <em>have</em> to hurry up!</p>
+
+        <p>We <em>cannot</em> live like this.</p>
+
+        <br><br>
+
+        <h1>The fieldset element</h1>
+        <p>The fieldset tag is used to group related elements in a form.
+            The fieldset tag draws a box around the related elements.</p>
+
+        <form >
+            <fieldset>
+                <legend>Personalia:</legend>
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+
+        <br><br>
+
+        <h1>figure and figcaption element</h1>
+
+        <figure>
+            <img src="/images/sea.jpg" alt="Sea" style="width:30%">
+            <figcaption>Fig.1 - Sea.</figcaption>
+        </figure>
+
+        <br><br>
+
+        <h1>footer element</h1>
+
+        <footer>
+        <p>Author: Hege Refsnes<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+        </footer>
+
+
+        <br><br>
+
+        <h1>h tag</h1>
+
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+
+        <br><br>
+
+        <h1>header tag</h1>
+        <article>
+            <header>
+              <h1>A heading here</h1>
+              <p>Posted by John Doe</p>
+              <p>Some additional information here</p>
+            </header>
+            <p>Lorem Ipsum dolor set amet....</p>
+        </article>
+
+
+        <br><br>
+
+        <h1>hgroup tag</h1>
+        <hgroup>
+            <h2>Norway</h2>
+            <p>The land with the midnight sun.</p>
+        </hgroup>
+
+
+        <br><br>
+
+        <h1>hr tag</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos ipsum. Nemo quo inventore impedit, natus officiis repudiandae iure sequi soluta itaque, repellat non praesentium ipsa ut dignissimos odio dolor vitae commodi, asperiores voluptatum debitis id consequatur vero? Commodi explicabo quisquam aspernatur laudantium quas rerum aliquam ex unde dolorum perspiciatis?</p>
+
+        <hr>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
+
+        <hr style="width:50%;text-align:left;margin-left:0">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
+
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
+
+        <hr style="height:30px">
+
+
+        <br><br>
+
+        <h1>i element</h1>
+
+        <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+
+        <br><br>
+
+        <h1>The iframe element</h1>
+
+        <iframe src="https://www.facebook.com/mithunmodakdu/" title="Mithun's Facebook Profile">
+        </iframe>
+
+
+        <br><br>
+
+        <h1> kbd element</h1>
+
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+        <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+        
     
 
 
