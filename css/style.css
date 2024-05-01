@@ -1,0 +1,23 @@
+.wrapper{
+    margin: 0 auto;
+    border: 5px solid green;
+    width: 50%;
+}
+
+label{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.first_name, .last_name, .email, .password{
+    width: 90%;
+    height: 25px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.message{
+    margin-left: 5px;
+    padding: 10px;
+}
