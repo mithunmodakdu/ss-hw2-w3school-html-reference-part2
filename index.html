@@ -4,467 +4,434 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-        <style>
-            table, th, td {
-                border: 1px solid black;
-            }
-
-            .myDiv {
-                border: 5px outset red;
-                background-color: lightblue;    
-                text-align: center;
-                }
-
-            kbd {
-                border-radius: 2px;
-                padding: 2px;
-                border: 1px solid black;
-                }
-        </style>
-    </head>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
 <body>
-    <!--This is comment-->
-    <h1>Home Page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore ratione necessitatibus cumque ducimus dolorem eius corrupti laboriosam id vitae omnis dicta inventore error dolore animi, nihil repudiandae qui sunt corporis dolorum nam quae blanditiis dolores tenetur. Tenetur vitae deserunt ex sunt maiores quibusdam asperiores quasi reprehenderit animi? Numquam, alias dolor maxime quasi voluptate aspernatur itaque dolore, aperiam nam facere beatae, nesciunt blanditiis. Necessitatibus temporibus voluptatem quia officiis ea rerum? Reprehenderit impedit dignissimos laboriosam excepturi voluptatibus sint molestias veniam, accusamus dolorem ut nulla facilis doloribus ipsam magni tempora quos hic ullam aspernatur iusto architecto beatae odit commodi delectus mollitia. Magnam!</p>
 
-    <h1>a element</h1>
-    <a href="/pages/about/about.html">Go to about page</a> <br><br>
+    <h1>The label element</h1>
 
-    <a href="https://web.facebook.com/mithunmodakdu" target="_blank">Facebook</a> <br><br>
-    
-    <a href="mailto:mithunmodakdu@gmail.com">Send email</a> <br><br>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
 
-    <a href="/images/sea.jpg" download target="_blank">Download sea image</a> <br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
 
-    <a href="/images/sea.jpg" download="downloadedseaphoto.jpg" target="_blank">Download sea image with name of downloadedseaphoto </a>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
 
-    <br><br>
-
-
-    <h1>abbr element</h1>
-    <abbr title="World Trade Organization">WTO</abbr>
-
-    <br><br>
-
-    <h1>Use of title attribute in image</h1>
-    <img src="/images/sea.jpg" width="50px" height="50px" title="Image of sea" alt="">
-
-    <br><br>
-
-    <h1>address element</h1>
-    <address>
-    Moilakanda, Shamgonj-2411, <br>
-    Gouripur, Mymensingh <br>
-    +08801919834450, +08801886834450 <br>
-    mithunmodakdu@gmail.com
-    </address>
-
-    <br><br>
-
-    <h1>article element</h1>
-    <article>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempore.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste neque nam illo harum, distinctio magni repudiandae quo earum vero amet tempora voluptates incidunt laborum, quod inventore. Doloremque quos, qui asperiores minima voluptatibus vero non rerum cumque, illo ea optio, voluptas cupiditate nostrum minus. Ex, eveniet veniam veritatis accusantium beatae necessitatibus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit in voluptatibus vitae rem optio odio? Numquam eveniet quo illum impedit vitae dolor fugiat animi dignissimos, blanditiis obcaecati minus repudiandae eaque tempora placeat quisquam fuga omnis voluptate pariatur repellat esse unde. Iure ullam tenetur exercitationem deserunt ut nemo aut necessitatibus laudantium.</p>
-    </article>
-
-    <br><br>
-
-    <h1>p and aside element</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugiat quidem a, error autem doloremque eveniet veniam molestiae commodi saepe dicta corporis veritatis iusto delectus id illum maiores dolorem, eius culpa odit ratione vitae assumenda. Ipsam facilis deleniti aspernatur natus ipsa, ad repellendus qui quae eligendi aliquid reprehenderit laborum id.</p>
-    
-    <aside>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis soluta sint eaque obcaecati aperiam dolorem quam odio deleniti voluptas, recusandae consectetur unde culpa ratione accusamus dolorum, exercitationem repellendus! Odio dolores eveniet reprehenderit facilis libero laudantium perspiciatis tenetur magni pariatur sed, nulla eos iusto quod harum a iure rem quibusdam?</p>
-    </aside>
-    
-    
-    <br><br>
-
-    <h1>audio element</h1>
-    <audio src="/audio/audio.mp3" controls></audio> 
-    <br>
-    <audio controls >
-        <source src="/audio/audio.mp3" type="">
-    </audio>
-    <br>
-    <!-- <audio controls autoplay>
-        <source src="/audio/audio.mp3" type="">
-    </audio>
-    <br>
-    <audio controls loop>
-        <source src="/audio/audio.mp3" type="">
-    </audio> -->
-
-    <br><br>
-
-    <h1>area and map element</h1>
-    <p>click on the laptop of the image</p>
-    <img src="images/gazzets.jpg"  usemap="#laptop" width="640px" height="960px" alt="">
-    <map name="laptop" >
-        <area  coords="185,603,339,849,333,857,141,957,83,959,1,751,1,669" shape="poly" href="images/laptop.jpg" alt="">
-    </map>
-
-    <br><br>
-
-    <h1>b element</h1>
-    <p>Lorem ipsum dolor sit  <b>Lorem ipsum dolor sit amet.</b> </p>
-
-    <br><br>
-
-    <h1>bdi and list element</h1>
-    <ul>
-        <li>User <bdi>hrefs</bdi>: 60 points</li>
-        <li>User <bdi>jdoe</bdi>: 80 points</li>
-        <li>User <bdi>إيان</bdi>: 90 points</li>
-    </ul>
-
-    <br><br>
-
-    <h1>bdo element</h1>
-    <bdo dir="rtl">Mithun Kumer Modak</bdo> <br>
-    <bdo dir="ltr">Mithun Kumer Modak</bdo>
-
-    <br><br>
-    
-    <h1>Blockquote element</h1>
-    <p>According to Henri Fayol</p>
-    <blockquote>Management is to plan and forcast, to organize, to lead and to control.</blockquote>
-
-    <br><br>
-
-    <h1>Button element</h1>
-    <button type="button">Click Me!</button>
-    <button type="button" autofocus>Click Me!</button>
-    <button type="button" disabled>Click Me!</button>
-
-    <br><br>
-
-    <h1 popover id="myheader">Hello</h1>
-    <button popovertarget="myheader">Click for popover</button>
-
-    <br><br>
-
-    <h1 popover id="myheader">Hello</h1>
-    <button popovertarget="myheader" popovertargetaction="show">Show popover</button>
-    <button popovertarget="myheader" popovertargetaction="hide">Hide popover</button>
-    <button popovertarget="myheader" popovertargetaction="toggle">Toggle popover</button>
-
-    <br><br><br>
-
-    <form >
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <button type="button" value="Submit">Button Type</button>
-        <button type="submit" value="Submit">Submit Type</button>
-        <button type="reset" value="Reset">Reset Type</button>
+        <input type="submit" value="Submit">
     </form>
 
     <br><br>
 
-    <h1>The canvas element</h1>
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+    <h1>The legend element</h1>
+
+    <form>
+        <fieldset>
+        <legend>Personalia:</legend>
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+
+        <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
 
     <br><br>
+
+
+    <h1>The ol and ul elements</h1>
+
+    <p>The ol element defines an ordered list:</p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <p>The ul element defines an unordered list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h1>The li value attribute</h1>
+
+    <ol>
+        <li value="100">Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Water</li>
+        <li>Juice</li>
+        <li>Beer</li>
+    </ol>
+
+
+    <h1>Define list type with CSS</h1>
+
+    <ol>
+        <li>Coffee</li>
+        <li style="list-style-type:lower-alpha">Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ul>
+        <li>Coffee</li>
+        <li style="list-style-type:square">Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h1>The ol reversed attribute</h1>
+
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+
+    <h1>The ol start attribute</h1>
+
+    <ol start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <ol type="I" start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <h1>The ol type attribute</h1>
+
+    <ol type="1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <ol type="a">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <ol type="A">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <ol type="i">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
+
+    <ol type="I">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    </ol>
     
-    <h1>The table & caption element</h1>
-    <table>
-        <caption style="text-align:center">My savings</caption>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-      </table>
 
-      <br><br>
-      
-      
-      <table>
-        <caption style="caption-side:bottom">My savings</caption>
-        <tr>
-          <th>Month</th>
-          <th>Savings</th>
-        </tr>
-        <tr>
-          <td>January</td>
-          <td>$100</td>
-        </tr>
-      </table>
+    <br><br>
 
-      <br><br>
+    <h1>The mark element</h1>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
 
-      <h1>The cite element</h1>
-      <img src="/images/scream.jpg" width="200" height="250" alt="The Scream">
-      <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    <br><br>
 
-      <br><br>
+    <h1>The menu element</h1>
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
 
-      <h1>The code element</h1>
-      <p>The HTML <code>button</code> tag defines a clickable button.</p>
-      <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
-
-      <br><br>
-
-      <h1>col and colgroup element</h1>
-      <table>
-       
-        <colgroup>
-            <col span="2" style="background-color: red;">
-            <col style="background-color: yellow;">
-        </colgroup>
-        <tr>
-          <th>ISBN</th>
-          <th>Title</th>
-          <th>Price</th>
-        </tr>
-        <tr>
-          <td>3476896</td>
-          <td>My first HTML</td>
-          <td>$53</td>
-        </tr>
-        <tr>
-          <td>5869207</td>
-          <td>My first CSS</td>
-          <td>$49</td>
-        </tr>
-      </table>
-
-      <br><br>
-
-      <h1>The data element</h1>
-
-        <ul>
-            <li><data value="21053">Cherry Tomato</data></li>
-            <li><data value="21054">Beef Tomato</data></li>
-            <li><data value="21055">Snack Tomato</data></li>
-        </ul>
-
-        <br><br>
+    <br><br>
 
 
-        <h1>datalist element</h1>
+    <h1>The meter element</h1>
 
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+
+
+    <br><br>
+
+
+    <h1>The nav element</h1>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+    </nav>
+
+    <br><br>
+
+
+    <h1>The select, option element</h1>
+
+    <label for="cars">Choose a car:</label>
+
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <br><br>
+
+    <h1>The optgroup element</h1>
+
+    <p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+    <form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+
+
+    <br><br>
+
+
+    <h1>The output element</h1>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form>
+
+
+    <br><br>
+
+    <h1>The picture element</h1>
+
+    <p>Resize the browser window to load different images.</p>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="/images/gazzets.jpg">
+        <source media="(min-width:465px)" srcset="/images/laptop.jpg">
+        <img src="/images/sea.jpg" alt="Sea" style="width:auto;">
+    </picture>
+
+
+    <br><br>
+
+
+    <h1>The pre element</h1>
+
+    <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks
+    </pre>
+
+
+    <br><br>
+
+
+    <h1>The progress element</h1>
+
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+
+
+
+    <br><br>
+
+
+    <h1>The q element</h1>
+
+    <p>WWF's goal is to: 
+    <q>Build a future where people live in harmony with nature.</q>
+    We hope they succeed.</p>
+
+
+    <br><br>
+
+
+    <h1>The s element</h1>
+
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+
+
+    <br><br>
+
+
+    <h1>The samp element</h1>
+
+    <p>Message from my computer:</p>
+
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+
+    <br><br>
+
+
+    <h1>The search Element</h1>
+
+    <search>
         <form>
-            <label for="browser">Choose your browser from the list:</label>
-            <input list="browsers" name="browser" id="browser">
-            <datalist id="browsers">
-                <option value="Edge">
-                <option value="Firefox">
-                <option value="Chrome">
-                <option value="Opera">
-                <option value="Safari">
-            </datalist>
-            <input type="submit">
+            <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
         </form>
+    </search>
 
-        <br><br>
 
-        <h1>dl, dd, and dt elements</h1>
+    <br><br>
 
-        <dl>
-            <dt>Coffee</dt>
-            <dd>Black hot drink</dd>
-            <dt>Milk</dt>
-            <dd>White cold drink</dd>
-        </dl>
 
-        <br><br>
+    <h1>The section element</h1>
 
-        <h1>del, ins element</h1>
+    <section>
+    <h2>WWF History</h2>
+    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section>
 
-        <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    <section>
+    <h2>WWF's Symbol</h2>
+    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+    </section>
 
 
-        <br><br>
+    <br><br>
 
-        <h1>details, summary element</h1>
 
-        <details>
-            <summary>Epcot Center</summary>
-            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-        </details>
-        
-        <br>
-        <details open>
-            <summary>Epcot Center</summary>
-            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-        </details>
+    <h1>The small element</h1>
 
+    <p>This is some normal text.</p>
+    <p><small>This is some smaller text.</small></p>
 
-        <br><br>
 
-        <h1>The dfn element</h1>
+    <br><br>
 
-        <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
-       
-        <p><dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages.</p>
 
+    <h1>The span element</h1>
 
-        <br><br>
+    <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkgreen;font-weight:bold">dark green</span> eyes.</p>
 
 
-        <h1>dialog element</h1>
-        <dialog open>This is an open dialog window</dialog>
+    <br><br>
 
-        <p>This is some text.</p>
 
-        <p>This is some text.</p>
+    <h1>The strong element</h1>
 
-        <dialog open>This is an open dialog window</dialog>
+    <p>This text is normal.</p>
 
-        <p>This is some text.</p>
+    <p><strong>This text is important!</strong></p>
 
-        <p>This is some text.</p>
 
+    <br><br>
 
-        <br><br>
-        <h1>div element</h1>
 
-        <div class="myDiv">
-            <h2>This is a heading in a div element</h2>
-            <p>This is some text in a div element.</p>
-        </div>
+    <h1>The sub and sup elements</h1>
 
+    <p>This text contains <sub>subscript</sub> text.</p>
+    <p>This text contains <sup>superscript</sup> text.</p>
 
-        <br><br>
 
-        <h1> em element</h1>
+    <br><br>
 
-        <p>You <em>have</em> to hurry up!</p>
 
-        <p>We <em>cannot</em> live like this.</p>
+    <h1>The summary element</h1>
 
-        <br><br>
+    <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </details>
 
-        <h1>The fieldset element</h1>
-        <p>The fieldset tag is used to group related elements in a form.
-            The fieldset tag draws a box around the related elements.</p>
 
-        <form >
-            <fieldset>
-                <legend>Personalia:</legend>
+    <br><br>
 
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
 
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
+    <h1>The time element</h1>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
 
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                
-                <input type="submit" value="Submit">
-            </fieldset>
-        </form>
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
 
 
-        <br><br>
+    <br><br>
 
-        <h1>figure and figcaption element</h1>
 
-        <figure>
-            <img src="/images/sea.jpg" alt="Sea" style="width:30%">
-            <figcaption>Fig.1 - Sea.</figcaption>
-        </figure>
+    <h1>The u element</h1>
 
-        <br><br>
+    <p>This is some <u>mispeled</u> text.</p>
 
-        <h1>footer element</h1>
 
-        <footer>
-        <p>Author: Hege Refsnes<br>
-        <a href="mailto:hege@example.com">hege@example.com</a></p>
-        </footer>
+    <br><br>
 
 
-        <br><br>
+    <h1>The var element</h1>
 
-        <h1>h tag</h1>
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
 
-        <h1>This is heading 1</h1>
-        <h2>This is heading 2</h2>
-        <h3>This is heading 3</h3>
-        <h4>This is heading 4</h4>
-        <h5>This is heading 5</h5>
-        <h6>This is heading 6</h6>
 
-        <br><br>
-
-        <h1>header tag</h1>
-        <article>
-            <header>
-              <h1>A heading here</h1>
-              <p>Posted by John Doe</p>
-              <p>Some additional information here</p>
-            </header>
-            <p>Lorem Ipsum dolor set amet....</p>
-        </article>
-
-
-        <br><br>
-
-        <h1>hgroup tag</h1>
-        <hgroup>
-            <h2>Norway</h2>
-            <p>The land with the midnight sun.</p>
-        </hgroup>
-
-
-        <br><br>
-
-        <h1>hr tag</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quos ipsum. Nemo quo inventore impedit, natus officiis repudiandae iure sequi soluta itaque, repellat non praesentium ipsa ut dignissimos odio dolor vitae commodi, asperiores voluptatum debitis id consequatur vero? Commodi explicabo quisquam aspernatur laudantium quas rerum aliquam ex unde dolorum perspiciatis?</p>
-
-        <hr>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
-
-        <hr style="width:50%;text-align:left;margin-left:0">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
-
-        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste maiores facilis nisi ex, magnam deleniti. Labore quia eius voluptatum laborum expedita quaerat error dolorum nemo hic blanditiis distinctio quidem cupiditate repudiandae esse molestias praesentium, debitis qui illum iste cum soluta libero. Placeat provident mollitia quos omnis aliquid eaque nostrum iste?</p>
-
-        <hr style="height:30px">
-
-
-        <br><br>
-
-        <h1>i element</h1>
-
-        <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
-
-
-        <br><br>
-
-        <h1>The iframe element</h1>
-
-        <iframe src="https://www.facebook.com/mithunmodakdu/" title="Mithun's Facebook Profile">
-        </iframe>
-
-
-        <br><br>
-
-        <h1> kbd element</h1>
-
-        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
-
-        <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
-        
-    
+    <br><br>
 
 
     
+    <h1>The video element</h1>
+
+    <video src="/video/video1.mp4" width="320" height="240" controls></video> <br> <br>
+
+    <video width="320" height="240" controls>
+        <source src="/video/video2.mp4" type="video/mp4">
+        <source src="/video/video3.ogg" type="video/ogg">
+        
+    </video>
+
+
+    <br><br>
+
+
+    <h1>The wbr element</h1>
+
+    <p>Try to shrink the browser window, to view how the very long word in 
+    the paragraph below will break:</p>
+
+    <p>This is a veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.</p>
+
+
+
+
+
+
+
+
 </body>
 </html>
